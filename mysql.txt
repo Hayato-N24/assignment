@@ -1,0 +1,8 @@
+mysql>CREATE DATABASE lampHomework_nakazawalb;
+
+mysql>USE lampHomework_nakazawalb;
+
+mysql>CREATE TABLE selfIntroduction(id INT AUTO_INCREMENT,name TEXT,loginName TEXT,PRIMARY KEY (id));
+
+mysql>INSERT INTO selfIntroduction (name,loginName) VALUES ('NakamuraHayato','hayato-n');
+
